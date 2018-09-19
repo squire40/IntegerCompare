@@ -32,9 +32,9 @@ namespace IntegerCompare
                 totals.Add(int.Parse(int1[i].ToString()) + int.Parse(int2[i].ToString()));
             }
 
-            var resposne = totals[0] == totals[1] && totals[1] == totals[2] ? "True" : "False";
+            var response = totals[0] == totals[1] && totals[1] == totals[2] ? "True" : "False";
 
-            Console.WriteLine(resposne);
+            Console.WriteLine(response);
             Console.ReadLine();
         }
 
